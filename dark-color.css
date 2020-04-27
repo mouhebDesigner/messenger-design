@@ -1,0 +1,14 @@
+:root{
+    /* --color-blue: rgb(20, 163, 219); */
+    --color-blue: #070f31;
+    --color-blue-opacity: #001356;
+    --color-text: #b0d8f7;
+    --color-text-opacity: rgba(145, 178, 222, 0.6);
+    --color-response: #004e98;
+    --color-input: #b0d8f7;
+    --color-send: #b0d8f7;
+    --color-icons: #0972d6;
+    --color-scrollbar: rgba(13, 154, 236, 0.801);
+    --color-scroll-bottom: rgba(4, 72, 136, 0.5);
+    --color-border: rgb(13, 134, 212);
+}

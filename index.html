@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dark-color.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+</head>
+<body>
+    <div class="messenger">
+        <div class="user">
+            <img src="images/user.jpg" alt="" width="30" height="30">
+            <p>Discussions</p>
+            <div class="settings">
+                <i class="fas fa-cog"></i>
+            </div>
+            <div class="edit">
+                <i class="far fa-edit"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="friend">
+                <img src="images/user.jpg" alt="">
+                <p>Mouheb Abderrahim
+                <span>En ligne il y a 6 h</span>
+                </p>             
+            </div>
+            <div class="call-icons">
+                    <i class="fas fa-phone-volume phone"></i>
+                    <i class="fas fa-video video"></i>
+                    <div class="information"></div>
+                    
+                    <label for="check-mode">
+            <input type="checkbox" id="check-mode" onclick="mode()">
+                <div class="mode-design"></div>
+            </label>
+        </div>
+        </div>
+        <div class="discussion">
+            <input type="text" class="search child" placeholder="Rechercher dans messenger">
+            <div class="ami first">
+                <div class="ami-img">
+                    <img src="images/cousin.jpg" alt="">
+                </div>
+                <p>
+                    Med Abderrahim
+                    <span>Vous: Ey3ayshou cousn 16:14</span>
+                </p>
+            </div>
+            <div class="ami non-lu">
+                <div class="ami-img">
+                    <img src="images/mamlouk.jpg" alt="">
+                </div>
+                <p>
+                    Maroua Mamlouk
+                    <span>Ma waretnish lkhedma rak 18:35</span>
+                </p>
+            </div>
+            <div class="ami non-lu">
+                <div class="ami-img">
+                    <img src="images/mouhamed.jpg" alt="">
+                </div>
+                <p>
+                    محمد الذوادي
+                    <span>Vous: Shahya Tayba 18:35</span>
+                </p>
+            </div>
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/balkis.jpg" alt="">
+                </div>
+                <p>
+                    Balkis
+                    <span>Vous: Shahya Tayba 18:35</span>
+                </p>
+            </div>
+            <div class="ami non-lu">
+                <div class="ami-img">
+                    <img src="images/marwasoeur.jpg" alt="">
+                </div>
+                <p>
+                    Mar Wa
+                    <span>Vous: Shahya Tayba 18:35</span>
+                </p>
+            </div>
+            <div class="ami ">
+                <div class="ami-img">
+                    <img src="images/gomycode.png" alt="">
+                </div>
+                <p>
+                    GO MY CODE
+                    <span>Vous: Merci pour votre proposition 18:35</span>
+                </p>
+            </div>
+            
+            
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/moataz.jpg" alt="">
+                </div>
+                <p>
+                    Moataz Abderrahim
+                    <span>Vous: Ok man 16:14</span>
+                </p>
+            </div>
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/jihed.jpg" alt="">
+                </div>
+                <p>
+                    Jihed Abouda
+                    <span>Vous: Jihed a manqué votre appel 14:13</span>
+                </p>
+            </div>
+            <div class="ami non-lu">
+                <div class="ami-img">
+                    <img src="images/azmi.jpg" alt="">
+                </div>
+                <p>
+                    Azmi Ashil
+                    <span>Vous: Ey3ayshou cousn 16:14</span>
+                </p>
+            </div>
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/ghoudi.jpg" alt="">
+                </div>
+                <p>
+                    Mouhamed Ghoudi
+                    <span>Vous: In sha allah bro 16:14</span>
+                </p>
+            </div> 
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/nadia.jpg" alt="">
+                </div>
+                <p>
+                    Nadia
+                    <span>Vous: 
+                        Vous avez envoyé une piéce jointe   
+                    16:14</span>
+                </p>
+            </div>
+            <div class="ami">
+                <div class="ami-img">
+                    <img src="images/tasnim.jpg" alt="">
+                </div>
+                <p>
+                    Tasnim Abderrahim
+                    <span>Vous: Discussion video terminé 16:14</span>
+                </p>
+            </div>
+            
+        </div>
+        <div class="conversation">
+            <div class="send">
+                <img src="images/cousin.jpg" alt="">
+                <p>Hello guys</p>
+            </div>
+            <div class="response">
+                <p>Hi how are you</p>
+                <img src="images/mouheb.jpg" alt="">
+            </div>
+            <div class="send">
+                <img src="images/cousin.jpg" alt="">
+                <p>Fine thanks and you</p>
+            </div>
+
+            <div class="response">
+                <p>Fine thanks, what's your program for today</p>
+                <img src="images/mouheb.jpg" alt="">
+            </div>
+            <div class="send">
+                <img src="images/cousin.jpg" alt="">
+                <p>I think that we will go to coffe as usually </p>
+            </div>
+
+            <div class="response">
+                <p>Ah okay call me then when you go out</p>
+                <img src="images/mouheb.jpg" alt="">
+            </div>
+            
+            <div class="writing">
+                <img src="images/cousin.jpg" alt="">
+                <div class="points">
+                    <div class="point point-1"></div>
+                    <div class="point point-2"></div>
+                    <div class="point point-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="message">
+            <div class="other-b">
+                <label for="checkbox">
+                <div class="other"></div>
+                </label>
+            </div>
+            <input type="checkbox" id="checkbox" hidden>
+            
+            <div class="top-b">
+                <div class="icons-first">
+                    <div class="gif">
+                        GIF
+                    </div>
+                    <div class="sticker"></div>
+                    <div class="fichier"></div>
+                </div>
+                <div class="icons-second">
+                    <div class="photo"></div>
+                    <div class="vocale"></div>
+                    <div class="jeu">
+                        <span>➕</span>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="write a message...">
+            </div>
+            <div class="block-icon">
+                <div class="gif">
+                    GIF
+                </div>
+                <div class="sticker"></div>
+                <div class="fichier"></div>
+                <div class="photo"></div>
+                <div class="vocale"></div>
+                <div class="jeu">
+                    <span>➕</span>
+                </div>
+        </div>
+            <div class="like-b">
+                <i class="fas fa-hand-point-right like"></i>
+            </div>
+            <!-- <div class="item other">
+
+            </div>
+            <div class="gsf">
+                <div class="item gif">
+                    
+                </div>
+                <div class="item sticker">
+    
+                </div>
+                <div class="item fichier">
+    
+                </div>
+            </div>
+            <input type="text" class="item" placeholder="Write a message">
+            <div class="item like">
+                <i class="far fa-hand-point-right hand-right"></i>
+            </div> -->
+        </div>
+        <div class="aside-right">
+            <div class="friend-chat">
+                <img src="images/cousin-right.jpg" alt="">
+                <p>Med Abderrahim</p>
+                <span>En ligne il y a 6 h</span>
+            </div>
+            <div class="options">
+                <p>options</p>
+                <div class="flesh">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+            <div class="assistance">
+                <p>Confidentiel and assistance</p>
+                <div class="flesh">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+            <div class="share-files">
+                <p>files shares</p>
+                <div class="flesh">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+            <div class="share-photos">
+                <p>photos shares</p>
+                <div class="flesh">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function mode(){
+
+console.log('hello console');
+var checkbox = document.getElementById('check-mode');
+if(checkbox.checked == true){
+    console.log('dark mode');
+    // Get HTML head element 
+var head = document.getElementsByTagName('HEAD')[0];  
+
+// Create new link Element 
+var link = document.getElementsByTagName('link')[0]; 
+
+// set the attributes for link element  
+link.rel = 'stylesheet';  
+
+link.type = 'text/css'; 
+
+link.href = 'light-color.css';  
+
+}else {
+    console.log('dark mode');
+    // Get HTML head element 
+var head = document.getElementsByTagName('HEAD')[0];  
+
+// Create new link Element 
+var link = document.getElementsByTagName('link')[0]; 
+
+// set the attributes for link element  
+link.rel = 'stylesheet';  
+
+link.type = 'text/css'; 
+
+link.href = 'dark-color.css';  
+    
+}
+}
+    </script>
+    <script src="fontawesome-free-5.13.0-web/js/all.js"></script>
+</body>
+</html>
